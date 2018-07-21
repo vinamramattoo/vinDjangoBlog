@@ -8,6 +8,8 @@
 {% block content %}
 
 {% with blocks=self.body %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-39890589-7"></script>
 
     {% for block in blocks %}
         {% if block.block_type == 'heading' %}
